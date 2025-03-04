@@ -3,11 +3,69 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<style>
+		 .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+.hero-content {
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* Heading */
+        .hero h1 {
+            font-size: 36px;
+            color: #333;
+            margin: 20px 0;
+        }
+
+        /* Description */
+        .hero p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        /* Explore Now Button */
+        .hero a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 20px;
+            background-color: #e60023;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        /* Button Hover Effect */
+        .hero a:hover {
+            background-color: #c2001d;
+        }
+	</style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	 <section class="hero">
+        <div class="hero-content">
+            <img src="https://source.unsplash.com/600x400/?pinterest,design" alt="Pinterest Style">
+            <h1>Discover Ideas for Your Next Project</h1>
+            <p>Explore millions of creative ideas and inspiration curated just for you.</p>
+            <a href="#">Explore Now</a>
+        </div>
+    </section>
     <script type="text/javascript" src="./script.js">
 </script>
 
